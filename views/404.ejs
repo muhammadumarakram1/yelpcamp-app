@@ -1,0 +1,15 @@
+<% layout('layouts/main') %>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="alert alert-danger" role="alert">
+                <h4 class="alert-heading">
+                    <%= err.message %>
+                </h4>
+                <div class="col">
+                    <p>
+                        Status Code: <%= err.statusCode %>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
